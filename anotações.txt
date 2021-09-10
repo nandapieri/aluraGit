@@ -10,3 +10,7 @@ Comandos estudados:
  - git config --local [conf] "texto" : alterar configurações para esse repo
  - git config --global [conf] "texto" : alterar configurações para todos os repos  
  - git config [conf] : ver oq está configurado (ex: user.name)
+
+
+Links uteis:
+https://devhints.io/git-log
