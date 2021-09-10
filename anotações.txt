@@ -1,0 +1,12 @@
+Comandos estudados:
+ - git init : iniciar o repo
+ - git status : verificar os arquivos monitorados pelo git no repo
+ - git add (nome do arquivo) : adicionar um arquivo para o git monitorar / commitar
+ - git add . : adicionar todos os arquivos para o git monitorar / commitar
+ - git commit -m "[mensagem]" : commitar os arquivos adicionados anteriormente com uma mensagem sobre as suas alterações
+ - git log : verificar lista de commits realizados
+ - git log -- oneline : ver lista de commits resumidas em uma linha
+ - git log -p : mostra oq foi alterado em cada commit
+ - git config --local [conf] "texto" : alterar configurações para esse repo
+ - git config --global [conf] "texto" : alterar configurações para todos os repos  
+ - git config [conf] : ver oq está configurado (ex: user.name)
