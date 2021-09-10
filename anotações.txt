@@ -1,5 +1,6 @@
 Comandos estudados:
  - git init : iniciar o repo
+ - git init --bare: repo puro, q não fica sendo editado, só contém as alterações de todos
  - git status : verificar os arquivos monitorados pelo git no repo
  - git add (nome do arquivo) : adicionar um arquivo para o git monitorar / commitar
  - git add . : adicionar todos os arquivos para o git monitorar / commitar
@@ -10,7 +11,17 @@ Comandos estudados:
  - git config --local [conf] "texto" : alterar configurações para esse repo
  - git config --global [conf] "texto" : alterar configurações para todos os repos  
  - git config [conf] : ver oq está configurado (ex: user.name)
+ - git remote : verificar servidores git conectados com o repo
+ - git remote add [caminho] : adicionarum servidor git ao repo
+ - git remote -v : verificar caminhos de servers
+ - git clone [caminho] : clonar um repo do endereço caminho
+ - git push [caminho] [branch] : enviar dados pro server
+ - git pull [caminho] [branch] : baixar dados da branch de um server para a máquina
 
 
 Links uteis:
-https://devhints.io/git-log
+https://devhints.io/git-log 
+
+Boas práticas:
+Nunca commitar código q não funciona
+Commitar alterações significaticas
